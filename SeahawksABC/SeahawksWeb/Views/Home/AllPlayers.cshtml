@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewBag.Title = "AllPlayers";
+}
+
+<h2>Aqui vamos a mostrar los jugadores</h2>
+
+<h2>Index</h2>
+
+<table>
+
+    <tr>
+
+        <th>
+
+            Name
+
+        </th>
+
+        <th>
+
+            Last name
+
+        </th>
+
+        <th>
+
+            College
+
+        </th>
+
+        <th>
+
+            Number
+
+        </th>
+
+
+        <th>
+
+            Position
+
+        </th>
+
+        <th>
+
+            Age
+
+        </th>
+
+    </tr>
+
+    @foreach (var item in Model) {
+
+    <tr>
+
+        <td>
+
+            @Html.Encode(item.Name)
+
+        </td>
+
+        <td>
+
+            @Html.Encode(item.LastName)
+
+        </td>
+
+        <td>
+
+            @Html.Encode(item.College)
+
+        </td>
+
+        <td>
+
+            @Html.Encode(item.Number)
+
+        </td>
+
+        <td>
+
+            @Html.Encode(item.Position)
+
+        </td>
+
+        <td>
+
+            @Html.Encode(item.Age)
+
+        </td>
+
+
+    </tr>
+    }
+</table> 
