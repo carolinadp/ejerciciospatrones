@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "patronesEstructurales2", "patronesEstructurales2\patronesEstructurales2.csproj", "{56D8422E-877B-4A44-A927-D04075BD0A28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{F6909E00-0BEB-4D92-A2A6-B16074A69725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternoPiramide", "ExternoPiramide\ExternoPiramide.csproj", "{1D882A32-7C18-4249-9010-0AB048D9A02A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56D8422E-877B-4A44-A927-D04075BD0A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D8422E-877B-4A44-A927-D04075BD0A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D8422E-877B-4A44-A927-D04075BD0A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D8422E-877B-4A44-A927-D04075BD0A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6909E00-0BEB-4D92-A2A6-B16074A69725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6909E00-0BEB-4D92-A2A6-B16074A69725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6909E00-0BEB-4D92-A2A6-B16074A69725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6909E00-0BEB-4D92-A2A6-B16074A69725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D882A32-7C18-4249-9010-0AB048D9A02A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D882A32-7C18-4249-9010-0AB048D9A02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D882A32-7C18-4249-9010-0AB048D9A02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D882A32-7C18-4249-9010-0AB048D9A02A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
